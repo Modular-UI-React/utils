@@ -1,0 +1,31 @@
+{
+  "name": "@modular-ui-react/utils",
+  "version": "0.1.1",
+  "description": "Utility scripts",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Modular-UI-React/utils.git"
+  },
+  "author": "A-G-D <aloeverdulay@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Modular-UI-React/utils/issues"
+  },
+  "homepage": "https://github.com/Modular-UI-React/utils",
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
