@@ -1,13 +1,14 @@
 {
   "name": "@modular-ui-react/utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utility scripts",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/Modular-UI-React/utils",
   "devDependencies": {
+    "microbundle": "^0.14.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.4",
     "webpack": "^5.65.0",
